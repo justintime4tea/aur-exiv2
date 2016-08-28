@@ -1,0 +1,21 @@
+pkgbase = exiv2-svn
+	pkgdesc = A command line utility to manage image metadata.
+	pkgver = 0.26.0
+	pkgrel = 1
+	url = http://dev.exiv2.org/projects/exiv2/repository
+	arch = x86_64
+	license = GPL
+	makedepends = expat
+	makedepends = gcc-libs
+	makedepends = zlib
+	makedepends = gettext
+	makedepends = subversion
+	makedepends = make
+	depends = expat
+	depends = gcc-libs
+	depends = zlib
+	replaces = exiv2
+	options = !makeflags
+
+pkgname = exiv2-svn
+
